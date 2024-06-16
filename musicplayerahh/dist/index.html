@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>music player !</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="player">
+    <div class="contentWrapper">
+      <div class="musicSwitch">
+        <div class="button _prev" id="prev"></div>
+        <div class="button _next" id="next"></div>
+      </div>
+      <div id="jsAlbum">
+        <div class="album _play">
+          <div class="album__internal"></div>
+        </div>
+      </div>
+      <div class="musicInfo">
+        <h1 class="musicInfo__name">apple cider</h1>
+        <h2 class="musicInfo__author">beabadoobee</h2>
+      </div>
+      <div class="musicTime">
+        <p class="musicTime__current">00:00</p>
+        <p class="musicTime__last">02:58</p>
+      </div>
+      <div class="musicBar" id="progress">
+        <div class="musicBar__length" id="length">
+          <div class="button musicBar__circle">
+            <div class="musicBar__circlePoint"></div>
+          </div>
+        </div>
+      </div>
+      <div class="musicOrder">
+        <div class="musicOrder__loop _loop" id="loop"></div>
+        <div class="musicOrder__shuffle" id="shuffle"></div>
+      </div>
+      <div class="musicControl">
+        <div class="button musicControl__backward" id="backward"></div>
+        <div class="button musicControl__play _play" id="play"></div>
+        <div class="button musicControl__forward" id="forward"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer>
+  <div class="footer-content">
+    <img src="your-image-url.jpg" alt="Dee C" class="footer-image">
+    <p>» MADE BY DEE 2024 ♡</p>
+  </div>
+</footer>
+
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
